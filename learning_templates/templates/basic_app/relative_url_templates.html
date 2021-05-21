@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Relative URL Templates</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Relative URL Templates</h1>
+      <a href="{% url 'basic_app:other' %}">Link To Other</a>
+      <a href="{% url 'basic_app:relative' %}">Link To Relative</a>
+      <a href="{% url 'admin:index' %}">Link To Admin</a>
+      <a href="{% url 'index' %}">Link To Index</a>
+    </div>
+  </body>
+</html>
